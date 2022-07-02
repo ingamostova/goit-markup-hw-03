@@ -312,13 +312,20 @@ margin-right: 30px;
 }
 
 .portfolio-list-item {
+  padding-bottom: 20px;
   border-bottom: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
 }
 
+.portfolio-img {
+  margin-bottom: 20px;
+}
+
 
 .portfolio-title {
+  margin-right: 20px;
+  margin-left: 20px;
   color: var(--title-color);
   font-size: 18px;
   line-height: 2;
@@ -326,6 +333,9 @@ margin-right: 30px;
 }
 
 .portfolio-text {
+  margin-top: 4px;
+    margin-right: 20px;
+  margin-left: 20px;
   color: var(--primary-color);
   font-size: 16px;
   line-height: 1.88;
