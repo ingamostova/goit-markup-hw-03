@@ -153,6 +153,10 @@ ul {
   line-height: 1.88;
 }
 
+.hero-btn:hover, .hero-btn:focus {
+  cursor: pointer;
+}
+
 .pros-list,
 .work-list,
 .team-list {
