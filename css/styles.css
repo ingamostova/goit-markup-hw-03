@@ -67,8 +67,6 @@ img {
   margin: 0;
   padding: 0;
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .contacts-list {
@@ -102,6 +100,7 @@ img {
 }
 
 .nav-link {
+  display: block;
   color: var(--title-color);
   padding-top: 32px;
   padding-bottom: 32px;
@@ -128,6 +127,7 @@ img {
 }
 .logo,
 .logo-primary {
+  display: block;
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
@@ -137,6 +137,7 @@ img {
 /* Стилізація мейну */
 .hero-title {
   max-width: 696px;
+  margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
   color: var(--hero-color);
